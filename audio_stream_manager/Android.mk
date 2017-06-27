@@ -114,7 +114,7 @@ LOCAL_MODULE_OWNER := intel
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_REQUIRED_MODULES := \
-    audio.primary.$(TARGET_BOARD_PLATFORM) \
+    audio.primary.pfw \
     liblpepreprocessing
 
 include $(BUILD_PHONY_PACKAGE)
@@ -129,7 +129,7 @@ LOCAL_C_INCLUDES := $(component_includes_dir_target)
 LOCAL_SRC_FILES := $(component_src_files)
 LOCAL_CFLAGS := $(component_cflags)
 
-LOCAL_MODULE := audio.primary.$(TARGET_BOARD_PLATFORM)
+LOCAL_MODULE := audio.primary.pfw
 LOCAL_MODULE_OWNER := intel
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_MODULE_TAGS := optional
