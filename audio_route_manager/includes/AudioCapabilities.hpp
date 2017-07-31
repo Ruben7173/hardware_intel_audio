@@ -49,7 +49,7 @@ struct AudioCapability
 
     bool supportChannelMaskNear(audio_channel_mask_t mask, bool isOut) const
     {
-        return getChannelMaskNear(mask, isOut) != mask;
+        return getChannelMaskNear(mask, isOut) != AUDIO_CHANNEL_NONE;
     }
 
     audio_format_t getFormat() const { return mSupportedFormat; }

@@ -176,7 +176,7 @@ public:
      */
     inline bool supportStreamConfig(const IoStream &stream) const
     {
-        return mConfig.supportSampleSpec(stream.streamSampleSpec());
+        return mConfig.supportSampleSpecNear(stream.streamSampleSpec());
     }
 
     /**
