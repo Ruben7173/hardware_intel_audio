@@ -29,7 +29,7 @@
 #include <utilities/Log.hpp>
 
 #ifndef PFW_CONF_FILE_PATH
-#define PFW_CONF_FILE_PATH  "/etc/parameter-framework/"
+#define PFW_CONF_FILE_PATH  "/vendor/etc/parameter-framework/"
 #endif
 
 using namespace std;

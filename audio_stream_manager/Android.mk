@@ -132,6 +132,7 @@ LOCAL_CFLAGS := $(component_cflags)
 LOCAL_MODULE := audio.primary.pfw
 LOCAL_MODULE_OWNER := intel
 LOCAL_MODULE_RELATIVE_PATH := hw
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_TAGS := optional
 LOCAL_STATIC_LIBRARIES := $(component_static_lib_target)
 LOCAL_WHOLE_STATIC_LIBRARIES := $(component_whole_static_lib)
